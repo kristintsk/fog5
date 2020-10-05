@@ -1,5 +1,3 @@
-/* Style the Image Used to Trigger the Modal */
-
 #modalImg {
     border-radius: 5px;
     cursor: pointer;
@@ -80,7 +78,6 @@
 .close {
     position: absolute;
     top: 25vh;
-    /* right: 25vw; */
     margin: auto;
     color: #f1f1f1;
     font-size: 40px;
