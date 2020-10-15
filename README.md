@@ -22,15 +22,18 @@ Your first step is to think about what type of portfolio you would like to make.
 - Successfully demonstrated the ability to enhance their site? 40pts (Each extra will be worth 10 pts, for a total of 40 pts)
 
 # My project description
-I used a Startbootstrap template Grayscale which is a simple template for a simple one-page layout. The biggest challenge was to understand the CSS (initially more than 10 thousand lines) in order to make it look the way I wanted to, and finally to remove the unused part of CSS code. I believe there are still quite some lines that could be removed, but as there are now 1500 lines of code including my personal additions, I’m already happy with the result.
-I changed the entire color-scheme (template was black-and-white design) and rearrenged slightly the structure (removed one block, added type-sections, altered background images, added core theme images and created personal enhancements). Quite a challenge was to create the background gradients when every section has its own background but the background of the page must form a cohorent whole.
+I used a Startbootstrap template Grayscale which is a simple template for a simple one-page layout. 
+   - **Bootstrap:** the biggest challenge was to understand the CSS (initially more than 10 thousand lines, the whole Bootstrap package) - to understand what was in use, what values were overriden etc. I changed the project setup to Bootstrap cdn so I did not need the whole package in CSS. But as there were made some modifications to Bootstrap core values it took an effort 'to read the code' in order to make the changes I wanted to, and finally to remove the unused part of CSS code. I believe there are still quite some lines that could be removed, but as there are now 1500 lines of code including my personal additions, I’m already happy with the result.
+   - **Other changes** - I changed the entire color-scheme (template was black-and-white design) and rearrenged slightly the structure (removed one block, added type-sections, altered background images, added core theme images and created personal enhancements). Quite a challenge was to create the background gradients when every section has its own background but the background of the page must form a cohorent whole.
+   - **Images** - I used Pixabay free photos to get high quality img files. Although there was no attribution required I decided to acknowledge the author - if the image is clicked the file will be opened in new tab in it's original location in Pixabay and the whole collection of the particular author is ready-to-view.
+   - **Detailed descriptions of fog types** - the links in the text are opened in the same tab
 
 ## Validation
 - **HTML** – one warning, no errors (warning about missing heading - I do not want to add heading to cite section)
 - **CSS** - fully validated (no warnings, no errors)
 
 ## Responsive design
-Created different design for for lg, md and sm screen view using media queries.
+I created different design for for lg, md and sm screen view using media queries.
 
 ## My personal enhancements
 1. added a section to display some nice sayings about fog and used carousel to present four cites. If slide is hovered the invert filter for bg image will be activated.
